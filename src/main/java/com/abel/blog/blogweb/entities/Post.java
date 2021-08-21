@@ -22,7 +22,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.validator.constraints.Length;
 
 @Entity
-@Table(name = "post")
+@Table
 public class Post {
 
     @Id
